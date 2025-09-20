@@ -24,5 +24,11 @@ fun obtenerProductos(): List<Producto> {
         Producto(id = 18, nombre = "Alfombrilla Gamer Razer", precio = 25.00, cantidadDisponible = 30),
         Producto(id = 19, nombre = "Cargador Universal", precio = 40.00, cantidadDisponible = 25),
         Producto(id = 20, nombre = "Docking USB-C 10 en 1", precio = 99.00, cantidadDisponible = 12),
+
+        Producto(id = 21, nombre = "Laptop HO Envy x360", precio = 999.00, cantidadDisponible = 10),
+        Producto(id = 22, nombre = "Teclado Mecanico AULA F75", precio = 69.00, cantidadDisponible = 15),
+        Producto(id = 23, nombre = "Mouse Inalambrico Razer", precio = 25.00, cantidadDisponible = 16),
+        Producto(id = 24, nombre = "Audifonos Sony para PS5", precio = 50.00, cantidadDisponible = 12),
+        Producto(id = 25, nombre = "Dualshock 5 para Sony PS5", precio = 80.00, cantidadDisponible = 25),
     )
 }
