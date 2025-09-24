@@ -102,3 +102,18 @@ java -jar tienda.jar
 - `Producto.kt`, `CarritoItem.kt`, `Carrito.kt`, `Factura.kt`: dominio y lógica.
 - `obtenerProductos.kt`: catálogo de ejemplo.
 - `Excepciones.kt`: excepciones personalizadas (extensibles).
+
+# Ejemplos visuales
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+
+## Integrantes:
+
+
+- Magaña Martínez Samuel Eduardo MM22035
+- Cerritos Berrios Víctor Manuel CB180815
+- Ramos Vásquez David Ernesto RV230544
+- Corcios Segovia José Valentin CS232913
