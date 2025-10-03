@@ -8,13 +8,14 @@ import Modelo.obtenerProductos
 object Controlador {
     private val carrito = Carrito()
     private val productos = obtenerProductos()
-
+// Método principal que inicia la aplicación
     fun iniciar() {
         mostrarMenuPrincipal()
     }
-
+    // Menú principal de la aplicación
     private fun mostrarMenuPrincipal() {
         while (true) {
+            // Se muestra el menú con opciones
             Vista.mostrarMensaje(
                 """
 ╔══════════════════════════════════════════════════════════════╗
@@ -43,7 +44,7 @@ object Controlador {
             }
         }
     }
-
+ // Muestra la lista de productos disponibles en formato de tabla
     fun mostrarProductos() {
         while (true) {
             Vista.mostrarMensaje("\n📦 Catálogo de Productos\n")
